@@ -14,17 +14,39 @@
 
 ---
 
+## Project Stakeholders
+
+### Fivestar Team
+- **Vanamali Sridharan** - Executive Sponsor
+- **Sridharan Vembu** - Engineering Head (Final Technical Approval Authority)
+- **Azharuddin Nurul** - Project Owner (Requirements & Business Approval)
+
+### 1CloudHub Team
+- **Ramakrishna Phani** - Executive Sponsor & CRO
+- **Vinod Ramanathan** - Project Manager
+- **Preeth M** - Solution Architect & Technical Lead
+
+---
+
+## ⚠️ IMPORTANT NOTICE
+
+**ALL DOCUMENTATION IS CURRENTLY AWAITING FIVESTAR APPROVAL**
+
+None of the documents listed below have been formally approved by Fivestar stakeholders. All documents are in draft status and require review and approval from the appropriate Fivestar team members before proceeding to implementation.
+
+---
+
 ## Approval Status Summary
 
-| Phase | Total Documents | Pending | Under Review | Approved | Progress |
-|-------|-----------------|---------|--------------|----------|----------|
-| **Requirements** | 5 | 2 | 2 | 1 | ![Progress](https://img.shields.io/badge/Progress-60%25-orange) |
+| Phase | Total Documents | Pending Fivestar Approval | Under Review | Approved | Progress |
+|-------|-----------------|----------------------------|--------------|----------|----------|
+| **Requirements** | 5 | 5 | 0 | 0 | ![Progress](https://img.shields.io/badge/Progress-0%25-red) |
 | **Design** | 4 | 4 | 0 | 0 | ![Progress](https://img.shields.io/badge/Progress-0%25-red) |
 | **Development** | 6 | 6 | 0 | 0 | ![Progress](https://img.shields.io/badge/Progress-0%25-red) |
-| **Testing** | 3 | 2 | 1 | 0 | ![Progress](https://img.shields.io/badge/Progress-33%25-yellow) |
+| **Testing** | 3 | 3 | 0 | 0 | ![Progress](https://img.shields.io/badge/Progress-0%25-red) |
 | **Implementation** | 4 | 4 | 0 | 0 | ![Progress](https://img.shields.io/badge/Progress-0%25-red) |
 
-**Overall Approval Progress:** ![Progress](https://img.shields.io/badge/Overall-23%25-yellow)
+**Overall Approval Progress:** ![Progress](https://img.shields.io/badge/Overall-0%25-red)
 
 ---
 
@@ -32,9 +54,9 @@
 
 ### Legend
 
-- 🔴 **Pending** - Not yet submitted for review
-- 🟡 **Under Review** - Submitted, awaiting approval
-- 🟢 **Approved** - Formally approved by stakeholder
+- 🔴 **Pending Fivestar Approval** - Awaiting review and approval from Fivestar team
+- 🟡 **Under Review** - Currently being reviewed by Fivestar stakeholders
+- 🟢 **Approved** - Formally approved by appropriate Fivestar stakeholder
 - 🔵 **Revision Required** - Needs changes before re-submission
 - ⚪ **On Hold** - Blocked or paused
 
@@ -42,74 +64,89 @@
 
 ## Phase 1: Requirements Documents
 
-| Document | Version | Priority | Approver | Due Date | Status | Dependencies | GitHub Link | Approval Method | Comments | Date Approved |
-|----------|---------|----------|----------|----------|--------|--------------|-------------|-----------------|----------|---------------|
-| **Business Requirements Document** | v1.0 | High | Azharuddin Nurul | June 10, 2025 | 🟢 Approved | - | [BRD](../02_Business_Requirements/Business_Requirements_Document_v1.0.md) | GitHub Issue #1 | Initial requirements captured well | June 4, 2025 |
-| **Software Requirements Specification** | v3.0 | High | Sridharan Vembu | June 15, 2025 | 🟡 Under Review | BRD Approval | [SRS](../03_Technical_Requirements/Software_Requirements_Specification_v3.0.md) | GitHub Issue #2 | Technical review in progress | - |
-| **Functional Requirements Specification** | v2.0 | High | Sridharan Vembu | June 12, 2025 | 🟡 Under Review | BRD Approval | [FRS](../03_Technical_Requirements/Functional_Requirements_Specification_v2.0.md) | GitHub Issue #3 | Awaiting technical validation | - |
-| **Non-Functional Requirements** | v2.0 | Medium | Azharuddin Nurul | June 20, 2025 | 🔴 Pending | SRS Approval | [NFR](../03_Technical_Requirements/Non_Functional_Requirements_v2.0.md) | Email + GitHub | Performance metrics need review | - |
-| **Database Distribution Strategy** | v1.0 | Medium | Sridharan Vembu | June 18, 2025 | 🔴 Pending | SRS Approval | [DB Strategy](../03_Technical_Requirements/Database_Distribution_Strategy_v1.0.md) | GitHub Issue #4 | PostgreSQL vs DynamoDB approach | - |
+| Document | Version | Priority | Fivestar Approver | Due Date | Status | Dependencies | GitHub Link | Approval Method | Comments | Date Approved |
+|----------|---------|----------|-------------------|----------|--------|--------------|-------------|-----------------|----------|---------------|
+| **Business Requirements Document** | v1.0 | High | Azharuddin Nurul | June 15, 2025 | 🔴 Pending Fivestar Approval | - | [BRD](../02_Business_Requirements/Business_Requirements_Document_v1.0.md) | GitHub Issue + Email | Business requirements need validation | - |
+| **Software Requirements Specification** | v3.0 | High | Sridharan Vembu | June 20, 2025 | 🔴 Pending Fivestar Approval | BRD Approval | [SRS](../03_Technical_Requirements/Software_Requirements_Specification_v3.0.md) | GitHub Issue + Email | Technical architecture review required | - |
+| **Test Plan** | v3.0 | High | Sridharan Vembu | June 25, 2025 | 🔴 Pending Fivestar Approval | SRS Approval | [Test Plan](../06_Testing/Test_Plan_v3.0.md) | GitHub Issue + Email | Testing approach needs technical validation | - |
+| **Database Distribution Strategy** | v1.0 | Medium | Sridharan Vembu | June 30, 2025 | 🔴 Pending Fivestar Approval | SRS Approval | [DB Strategy](../03_Technical_Requirements/Database_Distribution_Strategy_v1.0.md) | GitHub Issue + Email | PostgreSQL vs DynamoDB approach | - |
+| **UX Design Brief** | v1.0 | Medium | Azharuddin Nurul | July 5, 2025 | 🔴 Pending Fivestar Approval | BRD Approval | [UX Brief](../05_UI_UX_Design/UX_Design_Brief_v1.0.md) | Email + Meeting | User experience approach validation | - |
 
 ---
 
 ## Phase 2: Architecture & Design Documents
 
-| Document | Version | Priority | Approver | Due Date | Status | Dependencies | GitHub Link | Approval Method | Comments | Date Approved |
-|----------|---------|----------|----------|----------|--------|--------------|-------------|-----------------|----------|---------------|
-| **System Architecture Document** | v1.0 | High | Sridharan Vembu | June 25, 2025 | 🔴 Pending | SRS Approval | [Architecture](../04_Architecture_Design/System_Architecture_v1.0.md) | GitHub Issue #5 | AWS cloud-native design | - |
-| **API Specifications** | v1.0 | High | Sridharan Vembu | June 30, 2025 | 🔴 Pending | Architecture | [API Specs](../04_Architecture_Design/API_Specifications_v1.0.md) | GitHub Issue #6 | REST API documentation | - |
-| **Security Architecture** | v1.0 | High | Sridharan Vembu | July 5, 2025 | 🔴 Pending | Architecture | [Security](../04_Architecture_Design/Security_Architecture_v1.0.md) | GitHub Issue #7 | Compliance requirements | - |
-| **Infrastructure Design** | v1.0 | Medium | Azharuddin Nurul | July 8, 2025 | 🔴 Pending | Architecture | [Infrastructure](../04_Architecture_Design/Infrastructure_Design_v1.0.md) | Email + GitHub | AWS services configuration | - |
+| Document | Version | Priority | Fivestar Approver | Due Date | Status | Dependencies | GitHub Link | Approval Method | Comments | Date Approved |
+|----------|---------|----------|-------------------|----------|--------|--------------|-------------|-----------------|----------|---------------|
+| **Technical Architecture** | v1.0 | High | Sridharan Vembu | July 10, 2025 | 🔴 Pending Fivestar Approval | SRS Approval | [Architecture](../04_Architecture_Design/Technical_Architecture_v1.0.md) | GitHub Issue + Email | AWS cloud-native design approach | - |
+| **API Specifications** | v1.0 | High | Sridharan Vembu | July 15, 2025 | 🔴 Pending Fivestar Approval | Architecture | [API Specs](../03_Technical_Requirements/API_Specifications_v1.0.md) | GitHub Issue + Email | REST API documentation | - |
+| **Style Guide** | v1.0 | Medium | Azharuddin Nurul | July 20, 2025 | 🔴 Pending Fivestar Approval | UX Brief | [Style Guide](../05_UI_UX_Design/Style_Guide_v1.0.md) | Email Review | Brand guidelines and UI standards | - |
+| **Data Migration Strategy** | v1.0 | Medium | Sridharan Vembu | July 25, 2025 | 🔴 Pending Fivestar Approval | DB Strategy | [Migration](../03_Technical_Requirements/Data_Migration_Strategy_v1.0.md) | GitHub Issue + Email | Legacy data migration approach | - |
 
 ---
 
-## Phase 3: UI/UX Design Documents
+## Phase 3: Implementation Documents
 
-| Document | Version | Priority | Approver | Due Date | Status | Dependencies | GitHub Link | Approval Method | Comments | Date Approved |
-|----------|---------|----------|----------|----------|--------|--------------|-------------|-----------------|----------|---------------|
-| **UX Design Brief** | v1.0 | High | Azharuddin Nurul | May 20, 2025 | 🟢 Approved | BRD | [UX Brief](../05_UI_UX_Design/UX_Design_Brief_v1.0.md) | Email Approval | User journey approved | May 16, 2025 |
-| **Style Guide** | v1.0 | High | Azharuddin Nurul | May 25, 2025 | 🟢 Approved | UX Brief | [Style Guide](../05_UI_UX_Design/Style_Guide_v1.0.md) | GitHub Issue #9 | Brand guidelines confirmed | May 20, 2025 |
-| **Wireframes & Mockups** | v1.0 | Medium | Azharuddin Nurul | June 30, 2025 | 🔴 Pending | Style Guide | [Wireframes](../05_UI_UX_Design/Wireframes_v1.0.md) | GitHub Issue #9 | Internal & Customer portals | - |
-| **Component Library** | v1.0 | Medium | Sridharan Vembu | July 10, 2025 | 🔴 Pending | Wireframes | [Components](../05_UI_UX_Design/Component_Library_v1.0.md) | GitHub Issue #10 | React component specifications | - |
-
----
-
-## Phase 4: Testing Documents
-
-| Document | Version | Priority | Approver | Due Date | Status | Dependencies | GitHub Link | Approval Method | Comments | Date Approved |
-|----------|---------|----------|----------|----------|--------|--------------|-------------|-----------------|----------|---------------|
-| **Test Plan** | v3.0 | High | Sridharan Vembu | June 20, 2025 | 🟡 Under Review | SRS Approval | [Test Plan](../06_Testing/Test_Plan_v3.0.md) | GitHub Issue #11 | Comprehensive test strategy | - |
-| **Test Cases Specification** | v1.0 | High | Sridharan Vembu | July 15, 2025 | 🔴 Pending | Test Plan | [Test Cases](../06_Testing/Test_Cases_v1.0.md) | GitHub Issue #12 | Functional & non-functional | - |
-| **UAT Scenarios** | v1.0 | Medium | Azharuddin Nurul | August 1, 2025 | 🔴 Pending | Test Cases | [UAT](../06_Testing/UAT_Scenarios_v1.0.md) | Email + GitHub | Business scenario validation | - |
-
----
-
-## Phase 5: Implementation Documents
-
-| Document | Version | Priority | Approver | Due Date | Status | Dependencies | GitHub Link | Approval Method | Comments | Date Approved |
-|----------|---------|----------|----------|----------|--------|--------------|-------------|-----------------|----------|---------------|
-| **Deployment Guide** | v1.0 | High | Sridharan Vembu | August 15, 2025 | 🔴 Pending | Architecture | [Deployment](../07_Implementation/Deployment_Guide_v1.0.md) | GitHub Issue #13 | AWS deployment procedures | - |
-| **Migration Plan** | v1.0 | High | Sridharan Vembu | August 10, 2025 | 🔴 Pending | DB Strategy | [Migration](../07_Implementation/Migration_Plan_v1.0.md) | GitHub Issue #14 | Data migration strategy | - |
-| **Go-Live Checklist** | v1.0 | High | Azharuddin Nurul | August 20, 2025 | 🔴 Pending | Deployment Guide | [Go-Live](../07_Implementation/Go_Live_Checklist_v1.0.md) | Email + GitHub | Production readiness | - |
-| **Rollback Procedures** | v1.0 | Medium | Sridharan Vembu | August 18, 2025 | 🔴 Pending | Deployment Guide | [Rollback](../07_Implementation/Rollback_Procedures_v1.0.md) | GitHub Issue #15 | Emergency procedures | - |
+| Document | Version | Priority | Fivestar Approver | Due Date | Status | Dependencies | GitHub Link | Approval Method | Comments | Date Approved |
+|----------|---------|----------|-------------------|----------|--------|--------------|-------------|-----------------|----------|---------------|
+| **Deployment Guide** | v1.0 | High | Sridharan Vembu | August 1, 2025 | 🔴 Pending Fivestar Approval | Architecture | [Deployment](../07_Implementation/Deployment_Guide_v1.0.md) | GitHub Issue + Email | AWS deployment procedures | - |
+| **Operations & Monitoring Guide** | v1.0 | High | Sridharan Vembu | August 5, 2025 | 🔴 Pending Fivestar Approval | Deployment Guide | [Operations](../10_Deliverables/Operations_Monitoring_Guide_v1.0.md) | GitHub Issue + Email | Monitoring and alerting setup | - |
+| **LMS Downtime Prototype** | v1.0 | Medium | Azharuddin Nurul | August 10, 2025 | 🔴 Pending Fivestar Approval | Style Guide | [Prototype](../05_UI_UX_Design/LMS_Downtime_Prototype_v1.0.tsx) | Demo + Email | UI component for resilience | - |
 
 ---
 
 ## Approval Process Guidelines
 
-### For Major Documents (SRS, BRD, Architecture)
+### For Technical Documents (SRS, Architecture, Deployment)
 
-1. **Submission:** Create GitHub Issue with document link
-2. **Review Period:** 5-7 business days
-3. **Approval Method:** Formal GitHub Issue closure with approval comment
+**Fivestar Approver:** Sridharan Vembu (Engineering Head)
+
+1. **Submission:** GitHub Issue creation + Email notification
+2. **Review Period:** 7-10 business days
+3. **Approval Method:** Formal email confirmation + GitHub Issue closure
 4. **Revision Process:** New version number, fresh review cycle
 
-### For Minor Documents (Supporting docs, templates)
+### For Business Documents (BRD, UX, Requirements)
 
-1. **Submission:** Email notification with GitHub link
-2. **Review Period:** 2-3 business days  
-3. **Approval Method:** Email confirmation
+**Fivestar Approver:** Azharuddin Nurul (Project Owner)
+
+1. **Submission:** Email with document link
+2. **Review Period:** 5-7 business days  
+3. **Approval Method:** Email confirmation + Meeting discussion
 4. **Revision Process:** Version update, email confirmation
+
+### For Executive Review (Major Milestones)
+
+**Fivestar Approver:** Vanamali Sridharan (Executive Sponsor)
+
+1. **Submission:** Executive summary + Key documents
+2. **Review Period:** 3-5 business days
+3. **Approval Method:** Executive meeting + Email confirmation
+4. **Scope:** Overall project direction and major decisions
+
+---
+
+## Next Steps for Fivestar Approval
+
+### Immediate Actions Required
+
+1. **Schedule Review Meeting** with Fivestar stakeholders
+2. **Prioritize Document Review** starting with:
+   - Business Requirements Document (Azharuddin Nurul)
+   - Software Requirements Specification (Sridharan Vembu)
+   - Test Plan (Sridharan Vembu)
+
+3. **Create GitHub Issues** for tracking technical document reviews
+4. **Set up Regular Review Meetings** for ongoing approval process
+
+### Proposed Review Schedule
+
+| Week | Focus Area | Fivestar Reviewer | Documents |
+|------|------------|-------------------|-----------|
+| **Week 1** | Business Requirements | Azharuddin Nurul | BRD, UX Brief |
+| **Week 2** | Technical Architecture | Sridharan Vembu | SRS, Test Plan |
+| **Week 3** | Implementation Planning | Sridharan Vembu | DB Strategy, Architecture |
+| **Week 4** | Final Review & Sign-off | Both Stakeholders | All critical documents |
 
 ---
 
@@ -117,29 +154,26 @@
 
 | Issue Type | First Contact | Escalation Level 1 | Escalation Level 2 |
 |------------|---------------|-------------------|-------------------|
-| **Technical Approval Delays** | Sridharan Vembu | 1CloudHub CRO | Executive Review |
-| **Business Requirement Issues** | Azharuddin Nurul | Sridharan Vembu | Executive Review |
-| **Process/Timeline Concerns** | 1CloudHub Project Lead | Both Stakeholders | Executive Review |
+| **Technical Approval Delays** | Sridharan Vembu | Azharuddin Nurul | Vanamali Sridharan |
+| **Business Requirement Issues** | Azharuddin Nurul | Sridharan Vembu | Vanamali Sridharan |
+| **Executive Decisions** | Vanamali Sridharan | 1CloudHub Executive | Joint Executive Review |
+| **Timeline Concerns** | Vinod Ramanathan | Ramakrishna Phani | Executive Review |
 
 ---
 
-## GitHub Issues for Sign-offs
+## Contact Information for Approvals
 
-### Active Issues Requiring Attention
+### Fivestar Approval Contacts
 
-| Issue # | Document | Assignee | Status | Created | Due |
-|---------|----------|----------|--------|---------|-----|
-| #2 | SRS v3.0 Technical Review | @sridharan-vembu | Open | June 3, 2025 | June 15, 2025 |
-| #3 | FRS v2.0 Technical Review | @sridharan-vembu | Open | June 2, 2025 | June 12, 2025 |
-| #11 | Test Plan v3.0 Review | @sridharan-vembu | Open | June 3, 2025 | June 20, 2025 |
+- **Executive Sponsor:** Vanamali Sridharan <vanamali@fivestargroup.in>
+- **Engineering Head:** Sridharan Vembu <sridhar@fivestargroup.in>
+- **Project Owner:** Azharuddin Nurul <azharuddin.nurul@fivestargroup.in>
 
-### Recently Closed Issues
+### 1CloudHub Project Contacts
 
-| Issue # | Document | Approved By | Closed Date | Resolution |
-|---------|----------|-------------|-------------|------------|
-| #1 | BRD v1.0 Business Review | @azharuddin-nurul | June 4, 2025 | Approved with minor comments |
-| #8 | UX Design Brief Review | @azharuddin-nurul | May 16, 2025 | Approved - user journey confirmed |
-| #9 | Style Guide Brand Review | @azharuddin-nurul | May 20, 2025 | Approved - brand guidelines established |
+- **Executive Sponsor:** Ramakrishna Phani <rphani@1cloudhub.com>
+- **Project Manager:** Vinod Ramanathan <vinod@1cloudhub.com>
+- **Solution Architect:** Preeth M <preeth@1cloudhub.com>
 
 ---
 
@@ -147,19 +181,22 @@
 
 ### Outstanding Actions
 
-- [ ] **SRS Review:** Sridharan to complete technical review by June 15
-- [ ] **FRS Validation:** Technical validation needed for integration points
-- [ ] **NFR Metrics:** Performance benchmarks need business confirmation
-- [ ] **Architecture Design:** Start design phase upon SRS approval
+- [ ] **Schedule Initial Review Meeting** with Fivestar stakeholders
+- [ ] **Create GitHub Issues** for technical document reviews
+- [ ] **Prepare Executive Summary** for Vanamali Sridharan
+- [ ] **Set up Weekly Review Cadence** for ongoing approvals
+- [ ] **Define Approval Criteria** for each document type
 
-### Recent Decisions
+### Communication Protocol
 
-- **June 4, 2025:** BRD approved - proceed with technical documentation
-- **June 3, 2025:** Test Plan structure finalized - comprehensive approach confirmed
-- **May 20, 2025:** Style Guide approved - brand consistency established
+- **Weekly Status Updates** to be sent to all stakeholders
+- **Urgent Issues** to be escalated via phone within 24 hours
+- **Document Updates** to be communicated via email + GitHub notifications
+- **Approval Confirmations** to be documented in this tracker
 
 ---
 
 **Last Updated:** June 4, 2025  
 **Next Review:** June 11, 2025  
-**Document Owner:** Ramakrishna Phani (CRO, 1CloudHub)
+**Document Owner:** Vinod Ramanathan (Project Manager, 1CloudHub)  
+**Approved By:** Pending Fivestar Approval

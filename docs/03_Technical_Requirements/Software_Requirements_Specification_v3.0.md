@@ -28,14 +28,34 @@
 
 ---
 
+## ⚠️ DOCUMENT APPROVAL STATUS
+
+**CURRENT STATUS:** 🔴 **PENDING FIVESTAR APPROVAL**
+
+This document is currently in draft status and awaiting formal review and approval from Fivestar stakeholders. No implementation should proceed until proper approvals are received.
+
+### Required Approvals
+- **Technical Review:** Sridharan Vembu (Engineering Head) - 🔴 **PENDING**
+- **Business Validation:** Azharuddin Nurul (Project Owner) - 🔴 **PENDING**
+- **Executive Sign-off:** Vanamali Sridharan (Executive Sponsor) - 🔴 **PENDING**
+
+### 1CloudHub Internal Approvals
+- **Solution Architect:** Preeth M - ✅ **APPROVED** (June 3, 2025)
+- **Executive Sponsor:** Ramakrishna Phani - ✅ **APPROVED** (June 3, 2025)
+- **Project Manager:** Vinod Ramanathan - ✅ **APPROVED** (June 3, 2025)
+
+---
+
 ## Approval & Sign-off
 
-| **Role** | **Name** | **Signature** | **Date** |
-|----------|----------|---------------|----------|
-| **Technical Lead** | Sridharan Vembu | 🟡 *Under Review* | |
-| **Architecture Lead** | Ramakrishna Phani | ✅ *Approved* | June 3, 2025 |
-| **Client Technical Lead** | Sridharan Vembu | 🟡 *Under Review* | |
-| **1CloudHub CRO** | Ramakrishna Phani | ✅ *Approved* | June 3, 2025 |
+| **Role** | **Name** | **Organization** | **Status** | **Date** |
+|----------|----------|------------------|------------|----------|
+| **Engineering Head** | Sridharan Vembu | Fivestar | 🔴 *Pending Review* | |
+| **Project Owner** | Azharuddin Nurul | Fivestar | 🔴 *Pending Review* | |
+| **Executive Sponsor** | Vanamali Sridharan | Fivestar | 🔴 *Pending Review* | |
+| **Solution Architect** | Preeth M | 1CloudHub | ✅ *Approved* | June 3, 2025 |
+| **Executive Sponsor** | Ramakrishna Phani | 1CloudHub | ✅ *Approved* | June 3, 2025 |
+| **Project Manager** | Vinod Ramanathan | 1CloudHub | ✅ *Approved* | June 3, 2025 |
 
 **Approval Status:** ![Status](https://img.shields.io/badge/Status-Under_Review-yellow)  
 **GitHub Issue:** [Issue #2 - SRS v3.0 Technical Review](https://github.com/1cloudhub/fivestar-payments-engine/issues/2)  
@@ -353,13 +373,14 @@ Customer Portal ←→ Internal PE ←→ LMS
 ## Contact Information
 
 ### 1CloudHub Technical Team
-- **Technical Lead:** Ramakrishna Phani - ramakrishna.phani@1cloudhub.com
+- **Executive Sponsor:** Ramakrishna Phani - ramakrishna.phani@1cloudhub.com
+- **Project Manager:** Vinod Ramanathan - vinod@1cloudhub.com
 - **Solution Architect:** Preeth M - preeth.m@1cloudhub.com
-- **Development Lead:** [Name] - [email]
 
-### Client Technical Team
-- **Technical Stakeholder:** Sridharan Vembu - sridhar@fivestargroup.in
-- **System Administrator:** [Name] - [email]
+### Fivestar Technical Team
+- **Executive Sponsor:** Vanamali Sridharan - vanamali@fivestargroup.in
+- **Engineering Head:** Sridharan Vembu - sridhar@fivestargroup.in
+- **Project Owner:** Azharuddin Nurul - azharuddin.nurul@fivestargroup.in
 
 ---
 

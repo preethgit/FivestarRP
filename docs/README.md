@@ -112,13 +112,26 @@ Final deliverable packages and release documentation.
 
 ### Fivestar Team
 
-- **Sridharan Vembu** - Engineering Manager (Final Approval Authority)
-- **Azharuddin Nurul** - Product Owner (Requirement Reviews)
+- **Vanamali Sridharan** - Executive Sponsor
+- **Sridharan Vembu** - Engineering Head (Final Technical Approval Authority)
+- **Azharuddin Nurul** - Project Owner (Requirements & Business Approval)
 
 ### 1CloudHub Team
 
-- **Ramakrishna Phani** - CRO & Project Lead
-- **Preeth M** - Technical Lead
+- **Ramakrishna Phani** - Executive Sponsor & CRO
+- **Vinod Ramanathan** - Project Manager
+- **Preeth M** - Solution Architect & Technical Lead
+
+---
+
+## Approval Status
+
+> **⚠️ IMPORTANT:** All documentation is currently in draft status and awaiting Fivestar approval. No documents have been formally approved by Fivestar stakeholders yet.
+
+### Approval Pipeline
+1. **Technical Review** - Sridharan Vembu (Engineering Head)
+2. **Business Review** - Azharuddin Nurul (Project Owner)
+3. **Executive Sign-off** - Vanamali Sridharan (Executive Sponsor)
 
 ---
 
@@ -169,16 +182,17 @@ Final deliverable packages and release documentation.
 
 ## Contact Information
 
-### 1CloudHub Support
+### 1CloudHub Team
 
-- **Email:** <support@1cloudhub.com>
-- **Project Lead:** Ramakrishna Phani
-- **Technical Lead:** Preeth M
+- **Executive Sponsor:** Ramakrishna Phani <rphani@1cloudhub.com>
+- **Project Manager:** Vinod Ramanathan <vinod@1cloudhub.com>
+- **Solution Architect:** Preeth M <preeth@1cloudhub.com>
 
-### Fivestar Contacts
+### Fivestar Team
 
-- **Engineering Manager:** <sridhar@fivestargroup.in>
-- **Product Owner:** <azharuddin.nurul@fivestargroup.in>
+- **Executive Sponsor:** Vanamali Sridharan <vanamali@fivestargroup.in>
+- **Engineering Head:** Sridharan Vembu <sridhar@fivestargroup.in>
+- **Project Owner:** Azharuddin Nurul <azharuddin.nurul@fivestargroup.in>
 
 ---
 

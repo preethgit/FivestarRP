@@ -27,14 +27,34 @@
 
 ---
 
+## ⚠️ DOCUMENT APPROVAL STATUS
+
+**CURRENT STATUS:** 🔴 **PENDING FIVESTAR APPROVAL**
+
+This document is currently in draft status and awaiting formal review and approval from Fivestar stakeholders. No UX implementation should proceed until proper approvals are received.
+
+### Required Approvals
+- **Business Review:** Azharuddin Nurul (Project Owner) - 🔴 **PENDING**
+- **Technical Review:** Sridharan Vembu (Engineering Head) - 🔴 **PENDING**
+- **Executive Sign-off:** Vanamali Sridharan (Executive Sponsor) - 🔴 **PENDING**
+
+### 1CloudHub Internal Approvals
+- **Solution Architect:** Preeth M - ✅ **APPROVED** (May 16, 2025)
+- **Executive Sponsor:** Ramakrishna Phani - ✅ **APPROVED** (May 16, 2025)
+- **Project Manager:** Vinod Ramanathan - ✅ **APPROVED** (May 16, 2025)
+
+---
+
 ## Approval & Sign-off
 
-| **Role** | **Name** | **Signature** | **Date** |
-|----------|----------|---------------|----------|
-| **UX Lead** | 1CloudHub UX Team | ✅ *Approved* | May 16, 2025 |
-| **Product Owner** | Azharuddin Nurul | ✅ *Approved* | May 16, 2025 |
-| **Technical Lead** | Sridharan Vembu | ✅ *Approved* | May 20, 2025 |
-| **1CloudHub CRO** | Ramakrishna Phani | ✅ *Approved* | May 16, 2025 |
+| **Role** | **Name** | **Organization** | **Status** | **Date** |
+|----------|----------|------------------|------------|----------|
+| **Project Owner** | Azharuddin Nurul | Fivestar | 🔴 *Pending Review* | |
+| **Engineering Head** | Sridharan Vembu | Fivestar | 🔴 *Pending Review* | |
+| **Executive Sponsor** | Vanamali Sridharan | Fivestar | 🔴 *Pending Review* | |
+| **Solution Architect** | Preeth M | 1CloudHub | ✅ *Approved* | May 16, 2025 |
+| **Executive Sponsor** | Ramakrishna Phani | 1CloudHub | ✅ *Approved* | May 16, 2025 |
+| **Project Manager** | Vinod Ramanathan | 1CloudHub | ✅ *Approved* | May 16, 2025 |
 
 **Approval Status:** ![Status](https://img.shields.io/badge/Status-Approved-green)  
 **GitHub Issue:** [Issue #8 - UX Design Brief Review](https://github.com/1cloudhub/fivestar-payments-engine/issues/8)  

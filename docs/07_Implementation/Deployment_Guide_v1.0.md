@@ -1,10 +1,61 @@
 # DEPLOYMENT GUIDE
 # FIVESTAR PAYMENTS ENGINE
 
-**DATE:** 03-June-2025  
-**Authored By:** 1CloudHub DevOps Team  
-**Version:** 1.0  
-**Based on SRS Version:** 3.0
+<div align="center">
+
+![1CloudHub Logo](https://www.1cloudhub.com/wp-content/uploads/2020/01/1CloudHub-Logo-horiz-hires-RGB-copy-1.jpg)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+![Fivestar Logo](https://fivestargroup.in/storage/2023/04/fivestart-logo-1.png)
+
+**AWS Cloud Deployment Guide**
+
+</div>
+
+---
+
+## Document Information
+
+| **Field** | **Details** |
+|-----------|-------------|
+| **Document Title** | Deployment Guide |
+| **Project Name** | Fivestar Payments Engine Modernization |
+| **Client** | Fivestar Business Finance |
+| **Prepared By** | 1CloudHub DevOps Team |
+| **Document Version** | v1.0 |
+| **Date** | 03-June-2025 |
+| **Document Type** | Implementation Guide |
+| **Classification** | Confidential |
+
+---
+
+## ⚠️ DOCUMENT APPROVAL STATUS
+
+**CURRENT STATUS:** 🔴 **PENDING FIVESTAR APPROVAL**
+
+This document is currently in draft status and awaiting formal review and approval from Fivestar stakeholders. No deployment activities should proceed until proper approvals are received.
+
+### Required Approvals
+- **Technical Review:** Sridharan Vembu (Engineering Head) - 🔴 **PENDING**
+- **Infrastructure Review:** Azharuddin Nurul (Project Owner) - 🔴 **PENDING**
+- **Executive Sign-off:** Vanamali Sridharan (Executive Sponsor) - 🔴 **PENDING**
+
+### 1CloudHub Internal Approvals
+- **Solution Architect:** Preeth M - ✅ **APPROVED** (June 3, 2025)
+- **Executive Sponsor:** Ramakrishna Phani - ✅ **APPROVED** (June 3, 2025)
+- **Project Manager:** Vinod Ramanathan - ✅ **APPROVED** (June 3, 2025)
+
+---
+
+## Approval & Sign-off
+
+| **Role** | **Name** | **Organization** | **Status** | **Date** |
+|----------|----------|------------------|------------|----------|
+| **Engineering Head** | Sridharan Vembu | Fivestar | 🔴 *Pending Review* | |
+| **Project Owner** | Azharuddin Nurul | Fivestar | 🔴 *Pending Review* | |
+| **Executive Sponsor** | Vanamali Sridharan | Fivestar | 🔴 *Pending Review* | |
+| **Solution Architect** | Preeth M | 1CloudHub | ✅ *Approved* | June 3, 2025 |
+| **Executive Sponsor** | Ramakrishna Phani | 1CloudHub | ✅ *Approved* | June 3, 2025 |
+| **Project Manager** | Vinod Ramanathan | 1CloudHub | ✅ *Approved* | June 3, 2025 |
 
 ---
 
