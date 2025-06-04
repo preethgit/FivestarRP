@@ -1,4 +1,5 @@
 # DEPLOYMENT GUIDE
+
 # FIVESTAR PAYMENTS ENGINE
 
 <div align="center">
@@ -35,11 +36,13 @@
 This document is currently in draft status and awaiting formal review and approval from Fivestar stakeholders. No deployment activities should proceed until proper approvals are received.
 
 ### Required Approvals
+
 - **Technical Review:** Sridharan Vembu (Engineering Head) - 🔴 **PENDING**
 - **Infrastructure Review:** Azharuddin Nurul (Project Owner) - 🔴 **PENDING**
 - **Executive Sign-off:** Vanamali Sridharan (Executive Sponsor) - 🔴 **PENDING**
 
 ### 1CloudHub Internal Approvals
+
 - **Solution Architect:** Preeth M - ✅ **APPROVED** (June 3, 2025)
 - **Executive Sponsor:** Ramakrishna Phani - ✅ **APPROVED** (June 3, 2025)
 - **Project Manager:** Vinod Ramanathan - ✅ **APPROVED** (June 3, 2025)
